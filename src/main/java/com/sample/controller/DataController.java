@@ -35,7 +35,7 @@ public class DataController {
 	
 	@RequestMapping(path = "/test",method = RequestMethod.GET)
 	public String test(){
-		return "Application Running....";
+		return "Application is Running....";
 	}
 	
 	@PostMapping("/employees")
