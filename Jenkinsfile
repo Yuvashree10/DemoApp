@@ -1,23 +1,14 @@
-Pipeline{
+ 
+   pipeline {
+    agent any
 
-Agent any{
-
-Stages{
-
-Stage(‘Build’){
-
-Steps{
-
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Build complete'
+            }
+        }
+    }
 }
-
-}
-
-}
-
-}
-
-}   
-       
-   
 
 
