@@ -1,13 +1,22 @@
-pipeline {
+Pipeline{
 
-    agent any
+Agent any{
 
-    stages {
+Stages{
 
-        stage('git repo & clean') {
+Stage(‘Build’){
 
-        }}}
-                   
+Steps{
+
+}
+
+}
+
+}
+
+}
+
+}   
        
    
 
